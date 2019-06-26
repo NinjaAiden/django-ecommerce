@@ -6,7 +6,7 @@ def view_cart(request):
     """
     A view that renders the cart contents page
     """
-    return render(request, "cart.hmtl")
+    return render(request, "cart.html")
 
 def add_to_cart(request, id):
     """
